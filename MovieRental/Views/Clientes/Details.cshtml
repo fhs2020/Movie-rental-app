@@ -1,0 +1,46 @@
+﻿@model MovieRental.Models.Cliente
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            MembershipType
+        </dt>
+
+        <dd>
+            @ViewBag.MembershipTypeName
+        </dd>
+
+        <dt>
+            Client Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        @if (Model.DateOfBirth != null)
+        {
+            <dt>
+               Date of birth
+            </dt>
+
+            <dd>
+                @Html.EditorFor(model => model.DateOfBirth)
+            </dd>
+        }
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
