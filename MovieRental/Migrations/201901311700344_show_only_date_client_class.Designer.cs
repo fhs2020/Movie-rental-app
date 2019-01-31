@@ -7,13 +7,13 @@ namespace MovieRental.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Cliente_MembershipType_Relation : IMigrationMetadata
+    public sealed partial class show_only_date_client_class : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Cliente_MembershipType_Relation));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(show_only_date_client_class));
         
         string IMigrationMetadata.Id
         {
-            get { return "201901302248588_Cliente_MembershipType_Relation"; }
+            get { return "201901311700344_show_only_date_client_class"; }
         }
         
         string IMigrationMetadata.Source

@@ -138,21 +138,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201901302248025_FirstMigration.cs" />
-    <Compile Include="Migrations\201901302248025_FirstMigration.Designer.cs">
-      <DependentUpon>201901302248025_FirstMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201901311653136_first_migration.cs" />
+    <Compile Include="Migrations\201901311653136_first_migration.Designer.cs">
+      <DependentUpon>201901311653136_first_migration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201901302248588_Cliente_MembershipType_Relation.cs" />
-    <Compile Include="Migrations\201901302248588_Cliente_MembershipType_Relation.Designer.cs">
-      <DependentUpon>201901302248588_Cliente_MembershipType_Relation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201901302310374_MembershipType_Name.cs" />
-    <Compile Include="Migrations\201901302310374_MembershipType_Name.Designer.cs">
-      <DependentUpon>201901302310374_MembershipType_Name.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201901302359041_Date_Birth.cs" />
-    <Compile Include="Migrations\201901302359041_Date_Birth.Designer.cs">
-      <DependentUpon>201901302359041_Date_Birth.cs</DependentUpon>
+    <Compile Include="Migrations\201901311700344_show_only_date_client_class.cs" />
+    <Compile Include="Migrations\201901311700344_show_only_date_client_class.Designer.cs">
+      <DependentUpon>201901311700344_show_only_date_client_class.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cliente.cs" />
@@ -224,17 +216,11 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201901302248025_FirstMigration.resx">
-      <DependentUpon>201901302248025_FirstMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201901311653136_first_migration.resx">
+      <DependentUpon>201901311653136_first_migration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201901302248588_Cliente_MembershipType_Relation.resx">
-      <DependentUpon>201901302248588_Cliente_MembershipType_Relation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201901302310374_MembershipType_Name.resx">
-      <DependentUpon>201901302310374_MembershipType_Name.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201901302359041_Date_Birth.resx">
-      <DependentUpon>201901302359041_Date_Birth.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201901311700344_show_only_date_client_class.resx">
+      <DependentUpon>201901311700344_show_only_date_client_class.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

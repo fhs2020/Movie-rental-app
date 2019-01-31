@@ -3,16 +3,14 @@ namespace MovieRental.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class MembershipType_Name : DbMigration
+    public partial class show_only_date_client_class : DbMigration
     {
         public override void Up()
         {
-            AddColumn("dbo.MembershipTypes", "Name", c => c.String());
         }
         
         public override void Down()
         {
-            DropColumn("dbo.MembershipTypes", "Name");
         }
     }
 }
